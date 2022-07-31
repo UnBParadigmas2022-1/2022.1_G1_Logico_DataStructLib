@@ -18,7 +18,7 @@
 O objetivo é construir uma biblioteca que agrege as principais estruturas de dados acompanhadas de seus algoritmos
 principais para as operações de inserção, ordenação, deleção e busca implementados no paradigma lógico. 
 
-Acompanhada dessas implementações, serão realizadas análises comparativas de desempenho e complexidade em relação ao que foi codado no paradigma anterior (funcional) .
+Acompanhada dessas implementações, serão realizadas análises comparativas de desempenho e complexidade em relação ao que foi escrito no paradigma anterior (funcional) .
 ## Screenshots
 
 
