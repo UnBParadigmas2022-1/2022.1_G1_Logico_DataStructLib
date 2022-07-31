@@ -33,9 +33,11 @@ Gifs animados e outras ilustrações são bem-vindos!
 
 ## Prolog
 
-Inicialmente é necessario que  instale a plataforma do Haskell. Se você estiver no linux baseado no Debian, basta copiar a seguinte linha no seu terminal:
+Inicialmente é necessario que  instale a plataforma do SWI Prolog. Se você estiver no linux baseado no Debian, basta copiar a seguinte linha no seu terminal:
 ```
--
+ $ sudo apt-add-repository ppa:swi-prolog/stable
+ $ sudo apt-get update
+ $ sudo apt-get install swi-prolog
 ```
 
 Clone este repositório:
@@ -74,4 +76,4 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 
 
 ## Fontes
-
+- Menu: Obtido do moodle, arquivo "Menu de escolha.zip".
