@@ -16,5 +16,3 @@ member(X,L):-append(_, [X|_], L).
 prefix(L1, L):-append(L1,_,L).
 suffix(L1, L):-append(_,L1,L).
 
-sublist(L1, L):-append(LY,_,L),app(_,L1,LY).
-
