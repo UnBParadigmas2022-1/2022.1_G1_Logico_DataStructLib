@@ -6,6 +6,7 @@ edge(c,e,2).
 edge(d,e,2).
 edge(e,b,2).
 
+
 % Se tem uma aresta ligando a Origem ao Destino, defina que um CaminhoPercorrido = O nó de destino + os nós visitados
 % (Visitados = Os nós percorridos pelo backtracking até então); em uma distância percorrida de 1.
 path(Origem,Destino,Visitados,[Destino|Visitados],1):-edge(Origem,Destino,_).
@@ -16,6 +17,12 @@ path(Origem,Destino,Visitados,CaminhoPercorrido,Distancia):-edge(Origem,X,_),
   not(member(X,Visitados)),
   path(X,Destino,[X|Visitados], CaminhoPercorrido, NovaDistancia),
   Distancia is NovaDistancia+1.
+
+% Encontra um caminho que liga Origem ao Destino com um limite de distância Limite percorrendo o caminho CaminhoPercorrido
+findShortestPath(Origem,Dest,Limite,Percorrido):-
+  path(Origem,Dest,[Origem],Percorrido2,Limite),reverseList(Percorrido, [], Percorrido2);
+  Limite1 is Limite+1,Limite1<25,findShortestPath(Origem,Dest,Limite1,Percorrido).
+
 
 % Reverte o caminho para que o CaminhoPercorrido seja retornado corretamente
 reverseList([], A, A). 
