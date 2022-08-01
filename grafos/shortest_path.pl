@@ -1,11 +1,3 @@
-edge(a,b,2).
-edge(b,c,2).
-edge(a,c,2).
-edge(b,d,2).
-edge(c,e,2).
-edge(d,e,2).
-edge(e,b,2).
-
 
 % Se tem uma aresta ligando a Origem ao Destino, defina que um CaminhoPercorrido = O nó de destino + os nós visitados
 % (Visitados = Os nós percorridos pelo backtracking até então); em uma distância percorrida de 1.

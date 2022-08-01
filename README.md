@@ -71,6 +71,10 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Sofia Costa Patrocinio  | - |
 | Wellington Jonathan de Souza Rodrigues  | -  |
 
+### Menor caminho em grafos
+É possível perceber que devido ao uso do backtracking, a complexidade do algoritmo cresce rapidamente com o acrescimo de novas aresatas, como é exibido no grafico abaixo:
+![](./assets/path_ciclos.png)
+
 ## Trabalhos Futuros
 
 * Realizar a implementação de algoritmos classícos de busca em grafos para contrastar com a visão lógica apresentada. 
