@@ -26,7 +26,7 @@ menuGrafos:- repeat,
 	!.
 
 optionGrafos(0) :- !.
-optionGrafos(1) :- bellmanFord, !.
+optionGrafos(1) :-  !.
 optionGrafos(2) :- kruskals, !.
 optionGrafos(_) :- write('Opção inválida'), nl, !.
 
