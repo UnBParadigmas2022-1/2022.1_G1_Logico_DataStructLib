@@ -1,16 +1,4 @@
-s(a,b).
-s(a,c).
-s(b,d).
-s(b,d).
-s(b,e).
-s(c,f).
-s(c,g).
-s(d,h).
-s(e,i).
-s(e,j).
-s(f,k).
-goal(f).
-goal(j).
+:- include(nos_arestas).
 
 member(X, [X | _]).
 member(X, [_ | Tail]) :- member(X, Tail).
