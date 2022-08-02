@@ -56,7 +56,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Nathalia Lorena Cardoso Dias  | Foi adicionada a estrutura de Pilha feita em Prolog.| Boa |
 | Nicolas Georgeos Mantzos  | Implementação dos algoritmos "Busca em Largura"  e "Busca em Profundidade" para travessia de grafos e adição de problema pontuais a sessão de miscelânica.  | Boa |
 | Sofia Costa Patrocinio  | Implementação do módulo de Lista, bem com suas funções de Criação, com 1000 elementos, remoção do último elemento da lista e função reverse. | Regular |
-| Wellington Jonathan de Souza -  | - | - |
+| Wellington Jonathan de Souza -  | Inclusão dos algoritimos bubblesort e quicksort em Prolog.| Regular |
 
 ## Percepções gerais, lições aprendidas, fragilidades superadas...
 A tabela abaixo compila as percepções e lições aprendidas por cada participante no desenvolvimento do segundo módulo do projeto.
@@ -69,7 +69,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Nathalia Lorena Cardoso Dias  | Eu achei bastante interessante o paradigma lógico, tive várias ideias do que poderia ser explorado usando ele. No entanto, com a dificuldade de conciliar o tempo com as outras disciplinas, continuei com a mesma ideia do que tinha desenvolvido na entrega anterior, mas agora usando prolog, e mesmo trabalhando com uma estrutura de dados simples, não deixei de presenciar dificuldades e desafios com o prolog. Utilizei referências para ajudar na construção da estrutura e elas estão citadas em Referências.|
 | Nicolas Georgeos Mantzos  | Achei o paradigma muito gostoso de se trabalhar, sobretudo pela minha experiência com proposições, operações lógicas e predicados, temas títpicos da lógica de primeira ordem que forem utilizados à exaustão durante a escrita do código. Entretanto, ainda não fui capaz de discernir entre as ideias de recursão e backtracking, dado que ainda vejo um como a implicação natural e complementar do outro, não como conceitos distintos. De resto, reaproveitei o pensamento recursivo trabalhado no paradigam funcional.   |
 | Sofia Costa Patrocinio  | Tive muita dificuldade em relação a leitura de arquivos no paradigma, acabei ficando presa nessa questão e não consegui explorar tanto o módulo. Além disso, a documentação do Prolog é muito confusa por conta das diversas versões que as funções tem e falta de algumas informações. No entanto, consegui ver alguns benefícios da linguagem, como o backtracking e a forma como trabalha com lógica de predicados.|
-| Wellington Jonathan de Souza Rodrigues  | -  |
+| Wellington Jonathan de Souza Rodrigues  | Achei interessante e desafiador trabalhar com prolog,pude perceber que nesse paradigma, assim como no funcional, a utilização de lista e essencial embora a forma de trabalhar nesse paradigma tenha me forçado a  pensar de formas diferente. |
 
 ### Menor caminho em grafos
 É possível perceber que devido ao uso do backtracking, a complexidade do algoritmo cresce rapidamente com o acrescimo de novas aresatas, como é exibido no grafico abaixo:
