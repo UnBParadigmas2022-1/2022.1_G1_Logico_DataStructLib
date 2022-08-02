@@ -1,3 +1,4 @@
+% Retirado de https://gist.github.com/PythonJedi/32fd8d6d62681436c340e6806e23d8ca
 quicksort([X|Xs],Ys) :-
   partition(Xs,X,Left,Right),
   quicksort(Left,Ls),
