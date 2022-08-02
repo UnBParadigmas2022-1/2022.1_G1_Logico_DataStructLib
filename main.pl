@@ -1,4 +1,4 @@
-loadModules:- [grafos/big_graph, grafos/shortest_path].
+loadModules:- [grafos/big_graph, grafos/shortest_path, listas/teste_lista].
 
 menu:- loadModules, repeat,
 	write('=== MENU ==='), nl,
@@ -44,10 +44,4 @@ menuLista:- repeat,
 	X==0,
 	!.
 
-optionLista(0) :- !.
-optionLista(1) :- !.
-optionLista(2) :- !.
-optionLista(3) :- !.
-optionLista(4) :- !.
-optionLista(5) :- !.
-optionLista(_) :- write('Opção inválida'), nl, !.
+optionLista(1) :- time(testeCriaLista(X)), write(X), nl, !.
