@@ -54,7 +54,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Bruno Carmo Nunes  | - | - |
 | Gabriel Batista Albino Silva | Adicionado algoritmo de encontrar a menor distância em um grafo utiliando o backtracking do Prolog. A implementação encontra-se no arquivo "graph/shortest_path.pl" e sua implementação utiliza bastante do paradigma lógico e a camada de controle do prolog, ao inves da implementação que fiz no paradigma funcional onde era utilizado kruskals ou bellman ford para o calculo da menor distância. |
 | Nathalia Lorena Cardoso Dias  | Foi adicionada a estrutura de Pilha feita em Prolog.| Boa |
-| Nicolas Georgeos Mantzos  | Implementação dos algoritmos "Busca em Largura"  e "Busca em Profundidade" para travessia de grafos e adição de problema pontuais a sessão de miscelânica  | Boa |
+| Nicolas Georgeos Mantzos  | Implementação dos algoritmos "Busca em Largura"  e "Busca em Profundidade" para travessia de grafos e adição de problema pontuais a sessão de miscelânica.  | Boa |
 | Sofia Costa Patrocinio  | - | - |
 | Wellington Jonathan de Souza -  | - | - |
 
