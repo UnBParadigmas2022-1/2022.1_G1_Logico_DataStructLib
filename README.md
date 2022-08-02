@@ -53,7 +53,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
 | Gabriel Batista Albino Silva | Adicionado algoritmo de encontrar a menor distância em um grafo utiliando o backtracking do Prolog. A implementação encontra-se no arquivo "graph/shortest_path.pl" e sua implementação utiliza bastante do paradigma lógico e a camada de controle do prolog, ao inves da implementação que fiz no paradigma funcional onde era utilizado kruskals ou bellman ford para o calculo da menor distância. |
-| Nathalia Lorena Cardoso Dias  | - | - |
+| Nathalia Lorena Cardoso Dias  | Foi adicionada a estrutura de Pilha feita em Prolog.| Boa |
 | Nicolas Georgeos Mantzos  | - | - |
 | Sofia Costa Patrocinio  | - | - |
 | Wellington Jonathan de Souza -  | - | - |
@@ -66,7 +66,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Arthur Paiva Tavares  | - |
 | Bruno Carmo Nunes  |- | 
 | Gabriel Batista Albino Silva  | Um dos desafios que eu tive durante a implementação desse projeto foi a dificuldade de implementar algoritmos otimizados de menor caminho possível em grafos, uma vez que esses algoritmos necessitam de estruturas de controle de estado que são dificeis de gerenciar no paradigma lógico. Já existem imlementações realizadas anteriormente desses algoritmos em prolog como  citado na referência, porém a implementação foi realizada de maneira demasiadamente imperativa, conforme o próprio autor destaca. Portanto, ao invés de implementar esses algoritmos, decidi implementar algo mais voltado para o pardigma lógico, utilizando recursos de backtracking e recursão para encontrar o menor caminho possível entre dois pontos em um grafo. No meu entender a implementação realizada está de acordo com as espectativas do projeto, que é comparar algoritmos em diferentes paradigmas, e creio que a implementação no paradigma lógico se destaca das demais no quesito de ser única. |
-| Nathalia Lorena Cardoso Dias  | -|
+| Nathalia Lorena Cardoso Dias  | Eu achei bastante interessante o paradigma lógico, tive várias ideias do que poderia ser explorado usando ele. No entanto, com a dificuldade de conciliar o tempo com as outras disciplinas, continuei com a mesma ideia do que tinha desenvolvido na entrega anterior, mas agora usando prolog, e mesmo trabalhando com uma estrutura de dados simples, não deixei de presenciar dificuldades e desafios com o prolog. Utilizei referências para ajudar na construção da estrutura e elas estão citadas em Referências.|
 | Nicolas Georgeos Mantzos  | -   |
 | Sofia Costa Patrocinio  | - |
 | Wellington Jonathan de Souza Rodrigues  | -  |
@@ -84,3 +84,6 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 - Menu: Obtido do moodle, arquivo "Menu de escolha.zip".
 - Usado como referência inicial para implementação de grafos: [AI L9 P1 Prolog: Introduction to Prolog with graph search](https://www.youtube.com/watch?v=odZ1tnlhYSY)
 - Usado como referência para consulta dos algoritmos padrões em prolog (Não foi implementado, consultar percepções do Gabriel Albino para detalhes): [Bellman-Ford algorithm implemented in Prolog](https://github.com/tchap/prolog-bellman-ford/blob/master/bf.pl)
+
+- Usado como referência para consulta do algoritmo de Pilha em prolog: [How to implement stack](https://stackoverflow.com/questions/2978130/prolog-how-to-implement-stack)
+
