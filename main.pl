@@ -1,6 +1,6 @@
-loadModules:- [grafos/big_graph, grafos/shortest_path].
+:- [grafos/big_graph, grafos/shortest_path].
 
-menu:- loadModules, repeat,
+menu:- repeat,
 	write('=== MENU ==='), nl,
 	write('1. Grafos'), nl,
 	write('2. Lista'), nl,
