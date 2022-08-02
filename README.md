@@ -51,7 +51,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
-| Bruno Carmo Nunes  | Feito a inclusão e analise do mergesort e também selectionsort | Foi incrementado os valores do mergeSort, e foi testado gerando um valor 1.5 segundos para rodar o algoritmo no prolog. |
+| Bruno Carmo Nunes  | Feito a inclusão e analise do mergesort e também selectionsort | Regular |
 | Gabriel Batista Albino Silva | Adicionado algoritmo de encontrar a menor distância em um grafo utiliando o backtracking do Prolog. A implementação encontra-se no arquivo "graph/shortest_path.pl" e sua implementação utiliza bastante do paradigma lógico e a camada de controle do prolog, ao inves da implementação que fiz no paradigma funcional onde era utilizado kruskals ou bellman ford para o calculo da menor distância. |
 | Nathalia Lorena Cardoso Dias  | Foi adicionada a estrutura de Pilha feita em Prolog.| Boa |
 | Nicolas Georgeos Mantzos  | Implementação dos algoritmos "Busca em Largura"  e "Busca em Profundidade" para travessia de grafos e adição de problema pontuais a sessão de miscelânica.  | Boa |
