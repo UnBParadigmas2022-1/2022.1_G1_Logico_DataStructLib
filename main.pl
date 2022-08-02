@@ -30,8 +30,8 @@ menuGrafos:- repeat,
 optionGrafos(0) :- !.
 optionGrafos(1) :- time(findShortestPath(18,65,1,P)), write(P), nl, !.
 optionGrafos(2) :- time(path(18,65,[18],CaminhoPercorrido2,_)),reverseList(CaminhoPercorrido2, [], CaminhoPercorrido), write(CaminhoPercorrido), nl, !.
-optionGrafos(3) :- time(solve_dfs(a, X)), write(X), nl, !.
-optionGrafos(4) :- time(solve_bfs(a, X)), write(X), nl, !.
+optionGrafos(3) :- time(solve_dfs(1, X)), write(X), nl, !.
+optionGrafos(4) :- time(solve_bfs(1, X)), write(X), nl, !.
 optionGrafos(_) :- write('Opção inválida'), nl, !.
 
 menuLista:- repeat,
