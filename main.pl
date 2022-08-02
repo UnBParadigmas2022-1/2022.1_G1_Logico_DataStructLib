@@ -27,8 +27,7 @@ menuGrafos:- repeat,
 
 optionGrafos(0) :- !.
 optionGrafos(1) :- time(findShortestPath(18,65,1,P)), write(P), nl, !.
-optionGrafos(2) :- time(path(18,65,[18],CaminhoPercorrido,_)), write(CaminhoPercorrido), nl, !.
-optionGrafos(2) :- repeat, time(path(18,65,[18],CaminhoPercorrido2,_)),reverseList(CaminhoPercorrido2, [], CaminhoPercorrido), write(CaminhoPercorrido), nl, !.
+optionGrafos(2) :- time(path(18,65,[18],CaminhoPercorrido2,_)),reverseList(CaminhoPercorrido2, [], CaminhoPercorrido), write(CaminhoPercorrido), nl, !.
 optionGrafos(_) :- write('Opção inválida'), nl, !.
 
 menuLista:- repeat,
