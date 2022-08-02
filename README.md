@@ -21,6 +21,9 @@ principais para as operações de inserção, ordenação, deleção e busca imp
 Acompanhada dessas implementações, serão realizadas análises comparativas de desempenho e complexidade em relação ao que foi escrito no paradigma anterior (funcional) .
 ## Screenshots
 
+![Screenshot](assets/eficiencia.png)
+![Screenshot](assets/eficiencia2.png)
+![Screenshot](assets/lista.png)
 
 ## Instalação 
 ### Prolog
@@ -46,12 +49,14 @@ $ git clone <https://github.com/UnBParadigmas2022-1/2022.1_G1_Logico_DataStructL
 
 # Vídeo
 
+[![Watch the video](assets/tela.png)](https://www.youtube.com/watch?v=tsrQ9vISFic)
+
 ## Participações
 A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acompanhadas de sua respectiva significância.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
-| Bruno Carmo Nunes  | Feito a inclusão e analise do mergesort e também selectionsort | Regular |
+| Bruno Carmo Nunes  | Feito a pesquisa e implementação do mergesort e também do insertionsort. Foi também feito uma lista de 100000 variáveis para ordenação com mergeSort, e análisado a eficiência com essa complexidade. | Regular |
 | Gabriel Batista Albino Silva | Adicionado algoritmo de encontrar a menor distância em um grafo utiliando o backtracking do Prolog. A implementação encontra-se no arquivo "graph/shortest_path.pl" e sua implementação utiliza bastante do paradigma lógico e a camada de controle do prolog, ao inves da implementação que fiz no paradigma funcional onde era utilizado kruskals ou bellman ford para o calculo da menor distância. |
 | Nathalia Lorena Cardoso Dias  | Foi adicionada a estrutura de Pilha feita em Prolog.| Boa |
 | Nicolas Georgeos Mantzos  | Implementação dos algoritmos "Busca em Largura"  e "Busca em Profundidade" para travessia de grafos e adição de problema pontuais a sessão de miscelânica.  | Boa |
